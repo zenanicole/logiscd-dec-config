@@ -1,0 +1,17 @@
+message: Told you I would fix it! Damn, I am awesome
+
+Spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/estate_apartments?createDatabaseIfNotExist=true
+    username: root
+    password: B0nj0ur@1412
+    platform: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
